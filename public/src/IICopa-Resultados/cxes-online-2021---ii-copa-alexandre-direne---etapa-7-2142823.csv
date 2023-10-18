@@ -1,0 +1,44 @@
+Number,Rk,Fed,Title,Username,Name,Rating,RND1,RND2,RND3,RND4,RND5,RND6,RND7,Score,SB
+1,3,BRA,,NeryHard,Juliano Nery,2308,W16W,W6B,W9W,W4B,W2W,L3B,W12W,6,26.5
+2,2,BRA,NM,allvim,Alvaro Almeida,2319,W10B,W11W,W33B,W3W,L1B,W9W,W5B,6,24.5
+3,4,BRA,,Foguetee,,2252,W20B,W19W,W8B,L2B,W32W,W1W,W6B,6,24
+4,5,PER,,Iza_Tomazzini,iza,2034,W14W,D15B,W13B,L1W,W19B,L5W,W9B,4.5,16.75
+5,10,BRA,,RafaLops,Rafael Lopes,1917,W25B,L8W,D24B,W15W,W18B,W4B,L2W,4.5,14.75
+6,12,BRA,,polendario,,1881,W34B,L1W,W20B,D17W,W16B,W32B,L3W,4.5,13.75
+7,3,PER,,herstein2325,oscar melgar,1963,U--,L32B,W25W,W34B,W17B,D13W,W15B,4.5,13
+8,18,BRA,,JaisonLP,Jaison Leandro Polonisky,1740,W35B,W5B,L3W,L9B,W14W,L15W,W22B,4,12.5
+8,9,BRA,,Redon2007,Gabriel Redon Rosa,1998,W36W,W17B,L1B,W8W,W13W,L2B,L4W,4,12.5
+10,20,BRA,,thalesdomingues,Thales Domingues,1706,L2W,W28B,W29W,L19W,D24B,W18W,D13B,4,10.75
+11,11,BRA,,vinil23,Vinicius Lacerda,1844,W28W,L2B,L16W,W25B,W20W,L12B,W17W,4,10.5
+12,19,BRA,,NegoCaiua,Weslley Alves Carneiro,1699,L38B,L24W,W26B,W40W,W22B,W11W,L1B,4,10
+13,16,BRA,,Romameyadrov,,1749,W29B,W39B,L4W,W24W,L9B,D7B,D10W,4,9.75
+14,23,BRA,,CarlsenDeTaubate,Wellington Castro,1630,L4B,W26W,L19B,W27W,L8B,W34W,W20W,4,9
+15,14,BRA,,Rechbruxao,,1790,W26B,D4W,L32W,L5B,W25W,W8B,L7W,3.5,10.25
+16,21,BRA,,RudimarDeLaraCatira,Rudimar De Lara Catira,1653,L1B,W34W,W11B,D18W,L6W,L20B,W25W,3.5,9.75
+17,17,BRA,,Rullyans,Rullyans Martins,1733,W27W,L9W,W36B,D6B,L7W,W24B,L11B,3.5,7.75
+18,15,BRA,,Gabriel_LXDAP,Gabriel Alves Freitas,1742,W31W,L33W,W37B,D16B,L5W,L10B,W24W,3.5,5.25
+19,13,BRA,,guilhermeallvs1988,Guilherme Assis Alves,1834,W21W,L3B,W14W,W10B,L4W,U--,U--,3,11
+20,22,BRA,,ambrozin,Ambrozin Adriano,1635,L3W,W21B,L6W,W29B,L11B,W16W,L14B,3,8.5
+21,31,BRA,,CloudH,Ney Figueiredo,1237,L19B,L20W,L27B,W23W,W30B,L25B,W29W,3,6
+21,19,BRA,,Marcelomoreira87,Marcelo  Moreira,1473,U--,U--,W23B,W30W,L12W,W26B,L8W,3,6
+21,21,BRA,,Valdoni,Valdoni Ribeiro,1144,U--,U--,L22W,L21B,W28W,W27B,W26W,3,6
+24,24,BRA,,chesspsico2014,João Victor Michel,1617,D32W,W12B,D5W,L13B,D10W,L17W,L18B,2.5,10
+25,28,BRA,,AmauriDantas,AMAURI DANTAS,1445,L5W,W30B,L7B,L11W,L15B,W21W,L16B,2,4
+25,32,BRA,,yurilima,Yuri Lima,1157,L15W,L14B,L12W,W28B,W27B,L22W,L23B,2,4
+27,35,BRA,,ShaDoWzera7,Rafael De Oliveira,946,L17B,L36B,W21W,L14B,L26W,L23W,BYE,2,3
+28,29,BRA,,heraclito1976,,1318,L11B,L10W,L40B,L26W,L23B,BYE,W30W,2,1
+28,34,BRA,,Jhoninha-1987,jonatas Ferreira,991,L13W,W41W,L10B,L20W,L34B,W30W,L21B,2,1
+30,1,BRA,,denisnascimento5148,Denis Nascimento,919,U--,L25W,BYE,L22B,L21W,L29B,L28B,1,0
+31,33,BRA,,nezzy0,,998,L18B,L37B,L34W,U--,U--,U--,U--,0,0
+32,6,BRA,,giovani_2003,Giovani Lima Ferreira,2027,D24B,W7W,W15B,W33W,L3B,L6W,U--,3.5,8.75
+33,7,BRA,,Matheusmitov,Matheus Cassiano,2050,W37W,W18B,L2W,L32B,U--,U--,U--,2,3
+34,30,BRA,,Nill100XADREZ,,1312,L6W,L16B,W31B,L7W,W29W,L14B,U--,2,1
+35,36,BRA,,Wesleyfreitas5,Wesley Freitas,456,L8W,BYE,U--,U--,U--,U--,U--,1,0
+35,27,BRA,,kauezinhoCV,Kauê Leal,1458,L9B,W27W,L17W,U--,U--,U--,U--,1,0
+35,25,BRA,,xibis79,,1557,L33B,W31W,L18W,U--,U--,U--,U--,1,0
+35,1,BRA,FM,kuhlmann,Ivan Nogueira,2408,W12W,U--,U--,U--,U--,U--,U--,1,0
+35,8,BRA,,davalb,David,2002,W41B,L13W,U--,U--,U--,U--,U--,1,0
+35,19,BRA,,domiswhoiamx,Daniel Oliveira,1033,U--,U--,W28W,L12B,U--,U--,U--,1,0
+41,26,BRA,,JeuJack,Jeudy Jackson de Sousa Soares,1481,L39W,L29B,U--,U--,U--,U--,U--,0,0
+41,28,BRA,,fernandofurman,Fernando Furman,2108,U--,U--,U--,U--,U--,U--,U--,0,0
+41,31,BRA,,warlw,,819,U--,U--,U--,U--,U--,U--,U--,0,0

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rafael Lopes" />
+  <meta name="description" content="Clube de Xadrez Erbo Stenzel, torneios, palestras e muito mais." />
+  <meta name="keywords" content="xadrez, chess, clube, xadrez online, torneios">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="content-language" content="pt-br, en-US" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <link rel="stylesheet" type="text/css" href="../Stylespublic.css">
+  <link rel="stylesheet" type="text/css" href="https://pgn.chessbase.com/CBReplay.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="sortcut icon" href="../src/vectorpaint.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/29e00e9667.js" crossorigin="anonymous"></script>
+  <script src="https://pgn.chessbase.com/jquery-3.0.0.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158377687-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158377687-1');
+</script>
+<title>Clube de Xadrez Erbo Stenzel</title>
+
+<body>
+
+  <!-- Superior top nav -->
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html"> <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/> </a>
+    <a href="../index.html">HOME</a>
+    <a href="../Subpages/Torneios.html">TORNEIOS</a>
+    <a href="../Subpages/Palestras.html">PALESTRAS</a>
+    <a href="../Subpages/Membros.html">MEMBROS</a>
+    <a href="../Subpages/Galeria.html">GALERIA</a>
+    <a href="../Subpages/VideoConference.html">SALA ONLINE</a>
+    <a href="../Subpages/Sobre.html">SOBRE</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+
+
+  <!-- Content -->
+    <div class="w3-row w3-container">
+      <div class="w3-light-grey w3-large">
+
+        <br><br>
+
+          <!--Sobre  -->
+          <div class="w3-container" id="sobre" style="padding-bottom:32px;">
+            <div class="w3-content">
+              <h5 class="w3-center w3-padding-16"><span class="w3-tag w3-wide"><img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/> SOBRE <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/></span></h5>
+
+              <div class="w3-container" id="Sobretexto" style="padding-bottom:32px;">
+                <div class="w3-content" style="max-width:1000px">
+                  <h4 class="w3-center w3-padding-24"> 
+                    <span class="w3-wide"> 
+                    O clube de xadrez Erbo Stenzel é um espaço aberto dedicado a todos os amantes do esporte-arte-ciência que é o Xadrez <br /> <br />
+                    Localizado no coração de Curitiba, galeria Júlio Moreira no Largo da Ordem, o clube esta de portas abertas para quem quiser praticar, estudar ou fazer amizades e trocar ideias  <br /> <br />
+
+                    </span> 
+                  </h4>
+                </div>
+              </div>
+
+              <div class="w3-card w3-round w3-white">
+                <div style="display: flex;">
+                  <a href="https://www.google.com/maps/place/Clube+de+Xadrez+Erbo+Stenzel/@-25.4280507,-49.272184,15z/data=!4m5!3m4!1s0x0:0xa7d588dc54725d61!8m2!3d-25.4280507!4d-49.272184">
+                  <img class="w3-half w3-round w3-center" style="width: 100%; height: auto; max-width: 400px;min-width: 100px; height: auto;" src="../src/mapaErbo.jpg"></a>
+                <h5 class="w3-half w3-wide">Endereço: <br>Galeria Júlio Moreira, 202 - São Francisco, Curitiba - PR, 82510-070</h5>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+          <br><br>
+
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+<footer id="footer" class="footer2 w3-center w3-light-grey w3-padding-24 w3-large">
+  <a href="https://www.facebook.com/mr.rafaell"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/rafael-lopes-6022203b/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <a href="mailto:mr.rafaell@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+  <p class="w3-large">Criado por: Rafael Lopes</p>
+</footer>
+
+
+
+<!-- Scripts do menu superior -->
+<script>
+  // Tabbed Menu
+  function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+  }
+  // document.getElementById("myLink").click();
+  </script>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+</body>
+
+
+</html>

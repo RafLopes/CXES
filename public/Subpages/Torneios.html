@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rafael Lopes" />
+  <meta name="description" content="Clube de Xadrez Erbo Stenzel, torneios, palestras e muito mais." />
+  <meta name="keywords" content="xadrez, chess, clube, xadrez online, torneios">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="content-language" content="pt-br, en-US" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <link rel="stylesheet" type="text/css" href="../Stylespublic.css">
+  <link rel="stylesheet" type="text/css" href="./StyleTorneios.css">
+  <link rel="stylesheet" type="text/css" href="https://pgn.chessbase.com/CBReplay.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="sortcut icon" href="../src/vectorpaint.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/29e00e9667.js" crossorigin="anonymous"></script>
+  <script src="https://pgn.chessbase.com/jquery-3.0.0.min.js"></script>
+  <!-- <script src="https://pgn.chessbase.com/cbreplay.js"></script> -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158377687-1"></script> -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158377687-1');
+</script>
+<title>Clube de Xadrez Erbo Stenzel</title>
+
+<body>
+
+  <!-- Superior top nav -->
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html"> <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/> </a>
+    <a href="../index.html">HOME</a>
+    <a href="../Subpages/Torneios.html">TORNEIOS</a>
+    <a href="../Subpages/Palestras.html">PALESTRAS</a>
+    <a href="../Subpages/Membros.html">MEMBROS</a>
+    <a href="../Subpages/Galeria.html">GALERIA</a>
+    <a href="../Subpages/VideoConference.html">SALA ONLINE</a>
+    <a href="../Subpages/Sobre.html">SOBRE</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+
+  <!-- Content -->
+    <div class="w3-row w3-container">
+      <div class="w3-light-grey w3-large">
+
+        <br><br>
+
+        <h5 class="w3-center"><span class="w3-tag w3-wide">
+          <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/>
+          Copa 2022 de xadrez online Alexandre Direne
+          <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/>
+        </span></h5>
+
+        <br>
+        <div class="w3-container w3-center">
+        <span>
+          A copa de Xadrez Online Alexandre Direne acontece todos os anos, com duração de 100 etapas que ocorrem as terças e quartas-feiras às 19h. A pontuação depende da colocação que o jogador ficou em cada etapa e também das suas vitórias em cada partida. <br>
+          Seguem abaixo o regulamento e a tabela de classificação atualizada.        
+        </span>
+        </div>
+
+
+        <a href="../src/Regulamento da Copa/3_Copa_Alexandre_Direne_2022_v3.pdf"><h4 class="w3-center w3-padding-24"> 
+          <span class="w3-wide"> 
+            Regulamento da Copa 2022 de xadrez online Alexandre Direne
+          </span>
+        </a>
+          <br><br>
+
+
+          <h3 class="w3-center">Classificação geral - Etapa 36</h3>
+
+          <table id="mytable" class="prettytable">
+            <tr>
+              <th>Classificação</th>
+              <th>NickName</th>
+              <th>Pontuação</th>
+            </tr>
+          </table>
+
+
+            <div class="w3-display-container" id="idloader">
+              <div class="loader w3-display-middle"></div>
+            </div>
+
+          
+          <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+          <script src="./ChesscomAPI/JS/APIchesscom.js"></script>
+          <link rel="stylesheet" href="./ChesscomAPI/CSS/styletable.css">
+
+        
+        <br><br><br><br>
+
+          <!-- Parte Pontuação copa 2021-->
+          <div class="w3-container" id="pontuacao">
+            <div class="w3-content" style="max-width:800px">
+
+              <h5 class="w3-center"><span class="w3-tag w3-wide">
+                <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/>
+                Copa 2021 de xadrez online Alexandre Direne
+                <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/>
+              </span></h5>
+
+
+
+              <div class="tabelaspontuacao w3-card w3-center">
+
+                <div class="tabelaindividual">
+                  <h4 class="w3-center w3-padding-24"> 
+                    <span class="w3-wide w3-center"> 
+                    Classificação da Copa Alexandre Direne 2021 <br>de xadrez Online
+                    </span> 
+                  </h4>
+
+                  <table class="w3-table w3-bordered">
+                    <tr>
+                      <th class="w3-center">Pos</th>
+                      <th class="w3-center">Nick</th>
+                      <th class="w3-center">Pontos</th>
+                    </tr>
+                    <tr>
+                      <td class="w3-center">1</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='../Subpages/Perfis/011/perfil.jpeg' style="max-width:80px;min-width:50px">
+                          <p>Foguetee</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">1248.5</td>
+                    </tr>
+                    <tr>
+                      <td class="w3-center">2</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='https://www.chess.com/bundles/web/images/user-image.007dad08.svg' style="max-width:80px;min-width:50px">
+                          <p>redon2007</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">699</td>
+                    </tr>
+                    <tr>
+                      <td class="w3-center">3</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='https://images.chesscomfiles.com/uploads/v1/user/28781648.fecea2c2.160x160o.7e9a42a39f5d.jpeg' style="max-width:80px;min-width:50px">
+                          <p>jaisonlp</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">614.5</td>
+                    </tr>
+                    <tr>
+                      <td class="w3-center">4</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='https://images.chesscomfiles.com/uploads/v1/user/4099656.783a3d18.200x200o.f165cf958879.jpeg' style="max-width:80px;min-width:50px">
+                          <p>rafalops</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">612.5</td>
+                    </tr>
+
+                    <tr>
+                      <td class="w3-center">5</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='https://images.chesscomfiles.com/uploads/v1/user/21094134.2d86be1a.160x160o.b6ee1efd5d9a.jpeg' style="max-width:80px;min-width:50px">
+                          <p>rullyans</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">520.5</td>
+                    </tr>
+
+                    <tr>
+                      <td class="w3-center">6</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='https://images.chesscomfiles.com/uploads/v1/user/28248482.1c7c87b8.200x200o.a0c49033e57b.jpeg' style="max-width:80px;min-width:50px">
+                          <p>CarlsendeTaubate</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">451</td>
+                    </tr>
+
+                    <tr>
+                      <td class="w3-center">7</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='https://images.chesscomfiles.com/uploads/v1/user/74217908.5db3abcd.160x160o.086deb9fe2b3.jpeg' style="max-width:80px;min-width:50px">
+                          <p>rudimardelaracatira</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">406</td>
+                    </tr>
+
+                    <tr>
+                      <td class="w3-center">8</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='https://images.chesscomfiles.com/uploads/v1/user/63552054.98a55c75.160x160o.87ce0224890a.png' style="max-width:80px;min-width:50px">
+                          <p>iza_tomazzini</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">406</td>
+                    </tr>
+
+                    <tr>
+                      <td class="w3-center">9</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='https://images.chesscomfiles.com/uploads/v1/user/16963122.b805022c.160x160o.674611c04e90.png' style="max-width:80px;min-width:50px">
+                          <p>chesspsico2014</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">371.5</td>
+                    </tr>
+                    <tr>
+                      <td class="w3-center">10</td>
+                      <td class="w3-center">
+                        <div>
+                          <img src='https://images.chesscomfiles.com/uploads/v1/user/9175802.92f30710.160x160o.c1383fe4a7c6.jpeg' style="max-width:80px;min-width:50px">
+                          <p>fbenvenutti</p>
+                        </div>
+                      </td>
+                      <td class="w3-center">331</td>
+
+                    </tr>
+
+                  </table>
+                  
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <br><br><br>
+
+          <!-- Parte Pontuação copa 2020-->
+          <div class="w3-container" id="pontuacao">
+              <div class="w3-content" style="max-width:800px">
+
+                <h5 class="w3-center"><span class="w3-tag w3-wide">
+                  <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/>
+                  Copa 2020 de xadrez online Alexandre Direne
+                  <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/>
+                </span></h5>
+
+
+
+                <div class="tabelaspontuacao w3-card w3-center">
+
+                  <div class="tabelaindividual">
+                    <h4 class="w3-center w3-padding-24"> 
+                      <span class="w3-wide w3-center"> 
+                      Classificação da Primeira Copa Alexandre Direne  <br>de xadrez Online
+                      </span> 
+                    </h4>
+
+                    <table class="w3-table w3-bordered">
+                      <tr>
+                        <th class="w3-center">Pos</th>
+                        <th class="w3-center">Nick</th>
+                        <th class="w3-center">Pontos</th>
+                      </tr>
+                      <tr>
+                        <td class="w3-center">1</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='../Subpages/Perfis/011/perfil.jpeg' style="max-width:80px;min-width:50px">
+                            <p>DanielLeite25</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">1492</td>
+                      </tr>
+                      <tr>
+                        <td class="w3-center">2</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='https://images.chesscomfiles.com/uploads/v1/user/4099656.783a3d18.200x200o.f165cf958879.jpeg' style="max-width:80px;min-width:50px">
+                            <p>LeafarVII</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">1064</td>
+                      </tr>
+                      <tr>
+                        <td class="w3-center">3</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='https://images.chesscomfiles.com/uploads/v1/user/30636868.4910178f.200x200o.cbadd60e9750.jpeg' style="max-width:80px;min-width:50px">
+                            <p>Eliasmorenorodrigues</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">637</td>
+                      </tr>
+                      <tr>
+                        <td class="w3-center">4</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='https://images.chesscomfiles.com/uploads/v1/user/10245398.de461fb4.200x200o.3e2052b68f3a.jpeg' style="max-width:80px;min-width:50px">
+                            <p>Iwersenk</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">608</td>
+                      </tr>
+
+                      <tr>
+                        <td class="w3-center">5</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='https://images.chesscomfiles.com/uploads/v1/user/18567378.3d2e1e72.200x200o.431ceebe6aa1.jpeg' style="max-width:80px;min-width:50px">
+                            <p>Orquiza</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">428</td>
+                      </tr>
+
+                      <tr>
+                        <td class="w3-center">6</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='https://images.chesscomfiles.com/uploads/v1/user/28248482.1c7c87b8.200x200o.a0c49033e57b.jpeg' style="max-width:80px;min-width:50px">
+                            <p>CarlsendeTaubate</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">417</td>
+                      </tr>
+
+                      <tr>
+                        <td class="w3-center">7</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='https://images.chesscomfiles.com/uploads/v1/user/5328076.abbec80f.200x200o.dca315be5e1f.jpeg' style="max-width:80px;min-width:50px">
+                            <p>everchess</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">404</td>
+                      </tr>
+
+                      <tr>
+                        <td class="w3-center">8</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='https://images.chesscomfiles.com/uploads/v1/user/74217908.5db3abcd.200x200o.d9cd1ebcc79b.jpeg' style="max-width:80px;min-width:50px">
+                            <p>RudimarDeLaraCatira</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">290</td>
+                      </tr>
+
+                      <tr>
+                        <td class="w3-center">9</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='https://images.chesscomfiles.com/uploads/v1/user/74257240.9fd5f510.200x200o.96fe5e11e4ee.jpeg' style="max-width:80px;min-width:50px">
+                            <p>Hejazii</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">287</td>
+                      </tr>
+                      <tr>
+                        <td class="w3-center">10</td>
+                        <td class="w3-center">
+                          <div>
+                            <img src='https://images.chesscomfiles.com/uploads/v1/user/8727132.304811da.200x200o.1f33ac671897.jpeg' style="max-width:80px;min-width:50px">
+                            <p>maiconparana</p>
+                          </div>
+                        </td>
+                        <td class="w3-center">270</td>
+
+                      </tr>
+
+                    </table>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+
+          </div>
+        
+          <br><br><br><br>
+
+          <!-- Parte das Partidas -->
+          <div class="w3-container" id="partidas">
+
+            <h5 class="w3-center"><span class="w3-tag w3-wide">
+              <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/>
+              PARTIDAS ONLINE 
+              <img src="../src/vectorpaint.jpeg" width="22" height="22" alt="logo"/>
+            </span></h5>
+
+                  <h4 class="w3-center w3-padding-24"> 
+                    <span class="w3-wide"> 
+                    Registro de todas as partidas de todas as etapas realizadas online até o momento 
+                    </span> 
+                  </h4>
+
+                  <!-- <div>
+                    <div class="cbreplay" 
+                      data-url="../src/IICopa-PGN/CXES_Online_2021_-_II_Copa_Alexandre_Direne_-_Etapa_1_2021-02-17-20-01.pgn">
+                    </div>
+                  </div> -->
+
+                  <a href="../src/PGN completo/CopaAlexandreDirene.pgn"><h4 class="w3-center w3-padding-24"> 
+                    <span class="w3-wide"> 
+                      Link para PGN completo com todas as partidas até o momento 
+                    </span>
+                  </h4></a> 
+          </div>
+        
+        <br><br><br>
+
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+<footer id="footer" class="footer2 w3-center w3-light-grey w3-padding-24 w3-large">
+  <a href="https://www.facebook.com/mr.rafaell"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/rafael-lopes-6022203b/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <a href="mailto:mr.rafaell@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+  <p class="w3-large">Criado por: Rafael Lopes</p>
+</footer>
+
+
+
+<!-- Scripts do menu superior -->
+<script>
+  // Tabbed Menu
+  function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+  }
+  // document.getElementById("myLink").click();
+  </script>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+
+</html>

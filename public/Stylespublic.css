@@ -1,0 +1,176 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./src/erboReduzida.jpg");
+    min-height: 50%;
+    width:100%;
+    opacity: 1;
+  }
+
+
+
+  .topnav {
+    overflow: visible;
+    background-color: black;
+    position: fixed;
+    z-index: 9999;
+    width:100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("./src/erboReduzida.jpg");
+      width:100%;
+    }
+
+    .topnav {
+      overflow: visible;
+      background-color: black;
+      position: fixed;
+      z-index: 9999;
+      width:100%;
+    }
+  }
+  
+  .menu {
+    display: none;
+  }
+
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* para mobile */
+.videoyoutube {
+  width:100%;
+  height: 50vh;
+}
+
+/* para não mobile */
+@media screen and ( min-width: 900px ) {
+.videoyoutube {
+  width: 50vw;
+  height: 50vh;
+}
+
+
+.ContainerVideo {
+  display:grid;
+  justify-items: center;
+  padding: 10px;
+}
+
+.ContainerVideo > p {
+  font-size: 25px;
+  font-style: oblique;
+}
+
+.ContainerVideo > iframe{
+  display: inline;
+  justify-items: center;
+  border: 0;
+}
+}
+
+.listanoticias{
+  display: grid;
+}
+
+.noticia {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+}
+.noticia > span {
+  grid-column: 1 / 8;
+}
+.noticia > img {
+  grid-column: 8 / 10;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .noticia > span {
+  grid-column: 1 / 8;
+}
+.noticia > img {
+  grid-column: 8 / 12;
+  width: 100%;
+}
+}
+
+.linksParceiros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.imagelinks {
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  width: 60%;
+}
+
+.TituloPrincipal {
+  font-size: 6vw;
+  color: #FFFFFF;
+  /* text-shadow: 4px 3px 0 #7A7A7A; */
+}
+@media screen and (max-width: 600px) {
+.TituloPrincipal {
+  font-size: 8vw;
+  color: #FFFFFF;
+  /* text-shadow: 4px 3px 0 #7A7A7A; */
+}}
